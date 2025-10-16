@@ -1,2 +1,35 @@
-# DMML
-DMML Group Project
+# DMML — Breast Cancer detection using machine learning
+
+Course: DMML
+
+## Project Title
+
+Breast Cancer detection using machine learning
+
+## Description
+
+Our project focuses on building a machine learning system that uses both numerical data and medical images to detect breast cancer more accurately. We use the UCI Breast Cancer Wisconsin Diagnostic dataset, which contains 30 measurable features of breast tumors, to train classical machine learning models that distinguish between benign and malignant cases. Alongside this, the CBIS-DDSM mammogram dataset provides real medical images that allow us to train deep learning models using CNNs to detect the presence of tumors. By combining insights from both datasets, our project creates a more complete and reliable approach to early breast cancer detection.
+
+## Datasets
+
+- UCI Breast Cancer Wisconsin (Diagnostic) dataset — tabular data with 30 numeric features per sample (used for classical ML models)
+- CBIS-DDSM mammogram dataset — medical imaging dataset (used to train CNN-based deep learning models)
+
+## Project structure (suggested)
+
+- data/            : raw and processed datasets
+- notebooks/       : exploration and experiments (Jupyter notebooks)
+- src/             : training and evaluation code
+- models/          : saved model checkpoints
+- reports/         : results, plots, and evaluation metrics
+
+## Members
+
+| # | Name  |
+|---:|-------|
+| 1 | Aadi  |
+| 2 | Andre |
+| 3 | Gaurav|
+| 4 | Kevin |
+| 5 | Rhea  |
+
