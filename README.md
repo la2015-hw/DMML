@@ -15,14 +15,6 @@ Our project focuses on building a machine learning system that uses both numeric
 - UCI Breast Cancer Wisconsin (Diagnostic) dataset — tabular data with 30 numeric features per sample (used for classical ML models)
 - CBIS-DDSM mammogram dataset — medical imaging dataset (used to train CNN-based deep learning models)
 
-## Project structure (suggested)
-
-- data/            : raw and processed datasets
-- notebooks/       : exploration and experiments (Jupyter notebooks)
-- src/             : training and evaluation code
-- models/          : saved model checkpoints
-- reports/         : results, plots, and evaluation metrics
-
 ## Members
 
 | # | Name  |
