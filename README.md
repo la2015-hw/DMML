@@ -28,3 +28,24 @@ This project examines the effectiveness of different data modalities - tabular d
 |   3 | Gaurav |
 |   4 | Kevin  |
 |   5 | Rhea   |
+
+## Data Preprocessing
+
+We have created a comprehensive Jupyter notebook (`uci_breast_cancer_preprocessing.ipynb`) that performs the following preprocessing steps on the UCI Breast Cancer dataset:
+
+1. **Data Loading**: Loaded 569 samples with 30 features from `uci_breast_cancer_dataset/wdbc.data`
+2. **Exploratory Data Analysis**: Statistical analysis and visualization of features
+3. **Data Cleaning**: Checked for missing values, duplicates, and inconsistencies (none found)
+4. **Label Encoding**: Encoded diagnosis labels (M=Malignant→1, B=Benign→0)
+5. **Feature Standardization**: Standardized all features using StandardScaler (mean=0, std=1)
+6. **Train-Test Split**: Split data into 80% training (455 samples) and 20% testing (114 samples)
+
+### Preprocessed Data Files
+
+All preprocessed data is saved under `data/processed/`:
+- `X_train_scaled.csv` — Standardized training features (455 × 30)
+- `y_train.csv` — Training labels (455 × 1)
+- `X_test_scaled.csv` — Standardized testing features (114 × 30)
+- `y_test.csv` — Testing labels (114 × 1)
+- `scaler.pkl` — Saved StandardScaler for future use
+- `feature_names.txt` — List of all 30 feature names
